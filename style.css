@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0 auto;
+    max-width: 450px;
+    background: whitesmoke;
+   
+}
+h1{
+    text-shadow: 1px 8px white;
+    background-color: orange;
+    text-align: center;
+    text-transform: capitalize;
+    color: black;
+    border: 2px solid black;
+    font-size: 25px;
+    padding:5px 5px 10px 5px;
+    margin: 10px;
+}
+form{
+    background-color: lightgray;
+    text-align: left;
+    margin: 10px;
+}
+label{
+    margin: 10px;
+    background-color: bisque;
+    border: 2px solid orange;
+    border-radius: 10%;
+    padding: 5px;
+}
+
+
+input[type=text]{
+    color: brown;
+    border: none;
+    border: 2px solid rgb(78, 83, 107);
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: bold;
+    font-family: roboto;
+}
+
+input[type=email]{
+    margin-left: 13px;
+    color: brown;
+    border: none;
+    border: 2px solid rgb(78, 83, 107);
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: bold;
+    font-family: roboto;
+}
+
+input[type=password]{
+    margin-left: 10px;
+    color: brown;
+    border: none;
+    border: 2px solid rgb(78, 83, 107);
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: bold;
+    font-family: roboto;
+}
+
+input[type=date]{
+    margin-left: 13px;
+    color: rgb(137, 132, 132);
+    border: none;
+    border: 2px solid rgb(78, 83, 107);
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: bold;
+    font-family: roboto;
+}
+input[type=file]{
+    width: 180px;
+    margin-left: 13px;
+    color: rgb(137, 132, 132);
+    border: none;
+    border: 2px solid rgb(78, 83, 107);
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: bold;
+    font-family: roboto;
+}
+select{
+    margin-left: 13px;
+    color: rgb(19, 14, 14);
+    border: none;
+    border: 2px solid rgb(78, 83, 107);
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: bold;
+    font-family: roboto;
+}
+
+textarea{
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-left: 11px;
+    padding: 5px;
+    color: rgba(0, 0, 0, 0.473);
+    border: none;
+    border: 4px solid rgb(120, 57, 67);
+    
+}
+
+.btn-div{
+    text-align: center;
+}
+input[type=submit]{
+    margin-left: 11px;
+    color: brown;
+    border: none;
+    border: 2px solid rgb(78, 83, 107);
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: bold;
+    font-family: roboto;
+}
+input[type=reset]{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    color: brown;
+    border: none;
+    border: 2px solid rgb(78, 83, 107);
+    border-radius: 5px;
+    padding: 5px;
+    width: 70px;
+    font-weight: bold;
+    font-family: roboto;
+
+}
+
+
+

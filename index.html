@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang= "en">
+	<head> 
+		<mata charset = "UTF-8">
+		<title> Salman Text </title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	
+	<body>
+		<h1>designed by Salman Chowdhury</h1>
+		
+		<form>
+			<div>
+				<label>First Name : </label>
+				<input type ="text" for = "Firstname"
+				name = "Firstname" Id ="Firstname" placeholder="First Name">
+			</div><br/>
+			<div>
+				<label>Last Name : </label>
+				<input type ="text" for = "Lastname"
+				name = "Lastname" Id ="Lastname" placeholder="Last Name" required>
+			</div><br/>
+			<div>
+				<label>Email Id : </label>
+				<input type ="email" for = "email"
+				name = "email" Id ="email" placeholder="Give your Email ID">
+			</div><br/>
+			<div>
+				<label>Password : </label>
+				<input type ="Password" for = "Password"
+				name = "Password" Id ="Password" placeholder="Password">
+			</div><br/>
+			<div>
+				<label>Date Of Birth : </label>
+				<input type ="Date" for = "dob"
+				name = "dob" Id ="dob">
+			</div><br/>
+			<div>
+				<label>Upload Your Photos : </label>
+				<input type ="File" for = "Photo"
+				name = "Photo" Id ="Photo">
+			</div><br/>
+			<div>
+				<label>Gender: </label>
+				<input type ="Radio" for = "Gender" name = "Gender" Id ="Gender" >Male
+				<input type ="Radio" for = "Gender" name = "Gender" Id ="Gender">Female<br>
+			</div><br/>
+			<div>
+				<label>Relagion: </label>
+				<!--below For select This Checkbox I am using checked word-->
+				<input type ="Checkbox" for = "Islam" name = "Islam" Id ="Gender" checked>Muslim
+				<input type ="Checkbox" for = "Hindu" name = "Hindu" Id ="Gender">Hindu<br>
+			</div><br/>
+			
+			<div><!--Dropdown Manu-->
+			<label for ="PS"> Police Station: </label>
+				<select Name ="Police Station">
+				<option value="Polash">Narsingdi Sadar</option>
+				<!--below For select This Thana I am using selected word-->
+				<option value="Raipura" selected>Raipura</option>
+				<option value="Belabo">Belabo</option>
+				<option value="Moluhordi">Monuhordi</option>
+				</select>	
+			</div><br/>
+			<div>
+				<label for ="PS">Message : </label><br/>
+				<textarea for ="Textarea" cols="35" rows="10" placeholder="Give Your Message Here"></textarea>
+			</div><br/>
+			
+			<div class="btn-div"><!--Button-->
+				<input type ="Submit" value ="Register">
+				<input type ="reset" value ="Clear">
+			</div>
+			
+		</form>
+		
+	</body>
+
+</html>
